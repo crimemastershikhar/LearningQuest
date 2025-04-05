@@ -1,9 +1,21 @@
 {
   "image_url": "https://drive.google.com/uc?export=download&id=1eGWLgDFNz-Z8WYZSldR3JWKNRH01kUOx",
   "strings": [
-    "Me",
-    "You",
-    "They",
-    "Them"
+     {
+       "heading": "Cricket Bat",
+       "description": "Made of English Willow, used in professional cricket."
+     },
+     {
+       "heading": "Weight",
+       "description": "1.2kg (ideal for aggressive batting)."
+     },
+     {
+       "heading": "Brand",
+       "description": "MRF (used by legendary players like Sachin Tendulkar)."
+     },
+     {
+       "heading": "Grip",
+       "description": "Rubber grip for better control and shock absorption."
+     }
   ]
 }
