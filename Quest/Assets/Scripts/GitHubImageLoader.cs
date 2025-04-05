@@ -8,7 +8,8 @@ using TMPro; // For DateTime
 public class GitHubImageLoader : MonoBehaviour
 {
     public RawImage targetImage; // Assign in Inspector
-    public TextMeshProUGUI[] textDisplays;  // Assign 4 UI Text elements
+    public TextMeshProUGUI[] labelDisplays;  // Assign 4 UI Text elements
+    public TextMeshProUGUI[] descriptionDisplays;  // Assign 4 UI Text elements
     public TextMeshProUGUI loadingText;     // Assign a UI Text for "Loading..." message
     private string githubJsonUrl = "https://raw.githubusercontent.com/crimemastershikhar/LearningQuest/refs/heads/MilestoneOne/image_data.json";
 
@@ -29,6 +30,7 @@ public class GitHubImageLoader : MonoBehaviour
 
         if (jsonRequest.result == UnityWebRequest.Result.Success)
         {
+            Debug.Log("Raw JSON: " + jsonRequest.downloadHandler.text);
             // Step 2: Parse JSON
             ImageData data = JsonUtility.FromJson<ImageData>(jsonRequest.downloadHandler.text);
 
@@ -43,11 +45,9 @@ public class GitHubImageLoader : MonoBehaviour
                 targetImage.texture = ((DownloadHandlerTexture)imageRequest.downloadHandler).texture;
 
                 // Display Strings
-                for (int i = 0; i < data.strings.Length && i < textDisplays.Length; i++)
-                {
-                    textDisplays[i].text = data.strings[i];
-                }
-
+                
+                LoadData(data);
+                
                 // Calculate and show load time
                 TimeSpan elapsedTime = DateTime.Now - startTime;
                 loadingText.text = $"Loaded in {elapsedTime.TotalSeconds} seconds!";
@@ -65,10 +65,28 @@ public class GitHubImageLoader : MonoBehaviour
         }
     }
 
-    [System.Serializable]
-    public class ImageData
+    private void LoadData(ImageData imgData)
     {
-        public string image_url;
-        public string[] strings;
+        for (int i = 0; i < imgData.strings.Length; i++)
+        {
+            labelDisplays[i].text = imgData.strings[i].heading;
+            descriptionDisplays[i].text = imgData.strings[i].description;
+        }
     }
+
+    [System.Serializable]
+    public class ImageData {
+        public string image_url;
+        public StringPair[] strings;
+    }
+
+    [System.Serializable]
+    public class StringPair {
+        public string heading;
+        public string description;
+    }
+    
+    
 }
+
+
