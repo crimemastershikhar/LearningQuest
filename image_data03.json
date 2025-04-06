@@ -1,21 +1,21 @@
 {
-  "image_url": "https://drive.google.com/uc?export=download&id=17zHFEkeEfx-GEY0k_f_G5BPCRfmhyMCX",
+  "image_url": "https://drive.google.com/uc?export=download&id=1bfkn8ML_IWUgfmVtST5DOyBL3795HDGm",
   "strings": [
      {
-       "heading": "Cricket Bat",
-       "description": "Made of English Willow, used in professional cricket."
+       "heading": "Granules",
+       "description": "They are nanoscale fluid compartments containing newly synthesized RNA, RNA processing proteins, and mitoribosome assembly"
      },
      {
-       "heading": "Weight",
-       "description": "1.2kg (ideal for aggressive batting)."
+       "heading": "Ribosome",
+       "description": "It is responsible for synthesizing proteins encoded by the mitochondrial DNA"
      },
      {
-       "heading": "Brand",
-       "description": "MRF (used by legendary players like Sachin Tendulkar)."
+       "heading": "Cristae",
+       "description": "They are folds in the inner membrane of mitochondria that increase the surface area for chemical reactions"
      },
      {
-       "heading": "Grip",
-       "description": "Rubber grip for better control and shock absorption."
+       "heading": "Intermembrane space",
+       "description": "small, aqueous compartment located between the outer and inner mitochondrial membranes"
      }
   ]
 }
