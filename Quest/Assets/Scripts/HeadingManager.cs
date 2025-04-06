@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,8 @@ public class HeadingManager : MonoBehaviour
 {
     [SerializeField] private Button[] headingButtons;
     [SerializeField] private GitHubImageLoader gitHubImageLoader;
+    
+    [SerializeField] private TextMeshProUGUI descriptionTextLabel;
 
     private void OnEnable()
     {
@@ -32,22 +35,25 @@ public class HeadingManager : MonoBehaviour
 
     private void EnableDescription(int btnIndex)
     {
+        gitHubImageLoader.targetImage.rectTransform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+        
+        
         switch (btnIndex)
         {
             case 0:
-                Debug.Log(gitHubImageLoader.descriptionDisplays[0].text);
+                descriptionTextLabel.text = gitHubImageLoader.descriptionDisplays[0].text;
                 break;
             
             case 1:
-                Debug.Log(gitHubImageLoader.descriptionDisplays[1].text);
+                descriptionTextLabel.text = gitHubImageLoader.descriptionDisplays[1].text;
                 break;
             
             case 2:
-                Debug.Log(gitHubImageLoader.descriptionDisplays[2].text);
+                descriptionTextLabel.text = gitHubImageLoader.descriptionDisplays[2].text;
                 break;
             
             case 3:
-                Debug.Log(gitHubImageLoader.descriptionDisplays[3].text);
+                descriptionTextLabel.text = gitHubImageLoader.descriptionDisplays[3].text;
                 break;
             
             default:
