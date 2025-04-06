@@ -1,21 +1,21 @@
 {
-  "image_url": "https://drive.google.com/uc?export=download&id=1Nee1gW_g50RecJFlYzE2sr4CzwkM88I0",
+  "image_url": "https://drive.google.com/uc?export=download&id=1pD4vW-VQhEuPxzG7XKs_sUotpzadKDBy",
   "strings": [
      {
-       "heading": "Cricket Bat",
-       "description": "Made of English Willow, used in professional cricket."
+       "heading": "Forebrain",
+       "description": "Responsible for voluntary actions, thinking, and processing"
      },
      {
-       "heading": "Weight",
-       "description": "1.2kg (ideal for aggressive batting)."
+       "heading": "Midbrain",
+       "description": "The central part of the brainstem, acting as a vital connection between the forebrain and hindbrain, and playing a crucial role in motor control, vision, and hearing"
      },
      {
-       "heading": "Brand",
-       "description": "MRF (used by legendary players like Sachin Tendulkar)."
+       "heading": "Pons",
+       "description": "Responsible for relaying signals between the cerebellum, spinal cord, and other brain regions"
      },
      {
-       "heading": "Grip",
-       "description": "Rubber grip for better control and shock absorption."
+       "heading": "Medulla oblongata",
+       "description": "Responsible for regulating vital autonomic functions like breathing, heart rate, and blood pressure"
      }
   ]
 }
