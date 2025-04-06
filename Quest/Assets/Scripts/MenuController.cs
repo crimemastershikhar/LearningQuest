@@ -11,6 +11,7 @@ public class MenuController : MonoBehaviour
     [SerializeField] private Button playBtn;
     [SerializeField] private Canvas[] canvases;
     [SerializeField] private Button[] chapterBtns;
+    [SerializeField] private AudioSource audioSource;
 
     private void OnEnable()
     {
@@ -38,6 +39,7 @@ public class MenuController : MonoBehaviour
 
     private void ClickPlayScene()
     {
+        audioSource.Play();
         canvases[0].gameObject.SetActive(false);
         canvases[1].gameObject.SetActive(true);
     }
@@ -47,15 +49,19 @@ public class MenuController : MonoBehaviour
         switch (buttonIndex)
         {
             case 0:
+                audioSource.Play();
                 GitHubUrl.SharedUrl = "https://raw.githubusercontent.com/crimemastershikhar/LearningQuest/refs/heads/MilestoneOne/image_data.json";
                 break;
             case 1:
+                audioSource.Play();
                 GitHubUrl.SharedUrl = "https://raw.githubusercontent.com/crimemastershikhar/LearningQuest/refs/heads/MilestoneOne/image_data01.json";
                 break;
             case 2:
+                audioSource.Play();
                 GitHubUrl.SharedUrl = "https://raw.githubusercontent.com/crimemastershikhar/LearningQuest/refs/heads/MilestoneOne/image_data02.json";
                 break;
             case 3:
+                audioSource.Play();
                 GitHubUrl.SharedUrl = "https://raw.githubusercontent.com/crimemastershikhar/LearningQuest/refs/heads/MilestoneOne/image_data03.json";
                 break;
             

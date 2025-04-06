@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HeadingManager : MonoBehaviour
@@ -12,6 +13,9 @@ public class HeadingManager : MonoBehaviour
     [SerializeField] private GitHubImageLoader gitHubImageLoader;
     
     [SerializeField] private TextMeshProUGUI descriptionTextLabel;
+    [SerializeField] private Button backButton;
+    [SerializeField] private AudioSource audioSource;
+    
 
     private void OnEnable()
     {
@@ -21,6 +25,7 @@ public class HeadingManager : MonoBehaviour
             int buttonIndex = i;
             headingButtons[i].onClick.AddListener(() => EnableDescription(buttonIndex));
         }
+        backButton.onClick.AddListener(SwitchBack);
     }
 
     private void OnDisable()
@@ -31,13 +36,18 @@ public class HeadingManager : MonoBehaviour
             int buttonIndex = i;
             headingButtons[i].onClick.RemoveListener(() => EnableDescription(buttonIndex));
         }
+        backButton.onClick.RemoveListener(SwitchBack);
+    }
+
+    private void SwitchBack()
+    {
+        audioSource.Play();
+        SceneManager.LoadScene((int)SceneNames.MainMenu);
     }
 
     private void EnableDescription(int btnIndex)
     {
-        gitHubImageLoader.targetImage.rectTransform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
-        
-        
+        audioSource.Play();
         switch (btnIndex)
         {
             case 0:

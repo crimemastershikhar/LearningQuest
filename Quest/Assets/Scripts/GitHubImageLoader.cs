@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 using System.Collections;
 using System;
-using TMPro; // For DateTime
+using TMPro;
 
 public class GitHubImageLoader : MonoBehaviour
 {
@@ -58,7 +58,7 @@ public class GitHubImageLoader : MonoBehaviour
     {
         for (int i = 0; i < imgData.strings.Length; i++)
         {
-            labelDisplays[i].text = imgData.strings[i].heading;
+            labelDisplays[i].text =  i + " --> " + imgData.strings[i].heading;
             descriptionDisplays[i].text = imgData.strings[i].description;
         }
     }
