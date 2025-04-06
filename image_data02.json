@@ -1,21 +1,21 @@
 {
-  "image_url": "https://drive.google.com/uc?export=download&id=1MiBXt8UyIV-Tt8BCwsCXS6efbUFSVcIw",
+  "image_url": "https://drive.google.com/uc?export=download&id=1oujwe5KaZ3Y1f0NUx7QASo0W3Ru3RqH0",
   "strings": [
      {
-       "heading": "Cricket Bat",
-       "description": "Made of English Willow, used in professional cricket."
+       "heading": "Ovary",
+       "description": "The enlarged basal portion of the pistil that contains the ovulesand, after fertilization, develops into a fruit enclosing seeds"
      },
      {
-       "heading": "Weight",
-       "description": "1.2kg (ideal for aggressive batting)."
+       "heading": "Style",
+       "description": "A long, slender stalk-like structure within a flower that connects the stigma to the ovary"
      },
      {
-       "heading": "Brand",
-       "description": "MRF (used by legendary players like Sachin Tendulkar)."
+       "heading": "Stigma",
+       "description": "The receptive surface at the tip of the pistil where pollen lands and germinates, initiating the fertilization process. "
      },
      {
-       "heading": "Grip",
-       "description": "Rubber grip for better control and shock absorption."
+       "heading": "Pistil",
+       "description": "The female reproductive part of a flower, typically located in the center"
      }
   ]
 }
