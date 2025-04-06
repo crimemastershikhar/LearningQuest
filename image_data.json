@@ -1,21 +1,21 @@
 {
-  "image_url": "https://drive.google.com/uc?export=download&id=1Ggu9iUBSoN6yp7ndh9AwcCPPItvZwXYa",
+  "image_url": "https://drive.google.com/uc?export=download&id=1qi8Bv6grXWRO7CUCrXDaAHMWN5Yh0dUw",
   "strings": [
      {
-       "heading": "Cell Wall",
-       "description": "Cell wall is a rigid, outermost layer composed primarily of cellulose, providing structural support, protection, and maintaining the cell's shape."
+       "heading": "Brachiocephalic artery",
+       "description": "A major blood vessel that branches off the aortic arch and supplies blood to the right side of the head, neck, and upper limb"
      },
      {
-       "heading": "Nucleus",
-       "description": "A double-membrane structure that encloses the nucleus and separates the genetic material (DNA) from the cytoplasm"
+       "heading": "Left common careoid artery",
+       "description": "A major blood vessel that originates directly from the aortic arch, supplying blood to the head and neck, and it does not directly connect to the heart itself"
      },
      {
-       "heading": "Large Central Vacuole",
-       "description": "A prominent, membrane-bound organelle that stores water, nutrients, and waste products"
+       "heading": "Left subclavian artery",
+       "description": "Responsible for supplies blood to the left upper body, including the head, neck, and arm"
      },
      {
-       "heading": "Cytoplasm",
-       "description": "A gel-like, semi-fluid substance that fills the space between the cell membrane and the nucleus, containing all the organelles and structures necessary for the cell's function"
+       "heading": "Aorta",
+       "description": "The largest artery in your body, originating from the left ventricle of the heart, and is responsible for carrying oxygen-rich blood to the rest of the body"
      }
   ]
 }
