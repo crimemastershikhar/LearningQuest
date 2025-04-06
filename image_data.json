@@ -2,20 +2,20 @@
   "image_url": "https://drive.google.com/uc?export=download&id=1Ggu9iUBSoN6yp7ndh9AwcCPPItvZwXYa",
   "strings": [
      {
-       "heading": "Cricket Bat",
-       "description": "Made of English Willow, used in professional cricket."
+       "heading": "Cell Wall",
+       "description": "Cell wall is a rigid, outermost layer composed primarily of cellulose, providing structural support, protection, and maintaining the cell's shape."
      },
      {
-       "heading": "Weight",
-       "description": "1.2kg (ideal for aggressive batting)."
+       "heading": "Nucleus",
+       "description": "A double-membrane structure that encloses the nucleus and separates the genetic material (DNA) from the cytoplasm"
      },
      {
-       "heading": "Brand",
-       "description": "MRF (used by legendary players like Sachin Tendulkar)."
+       "heading": "Large Central Vacuole",
+       "description": "A prominent, membrane-bound organelle that stores water, nutrients, and waste products"
      },
      {
-       "heading": "Grip",
-       "description": "Rubber grip for better control and shock absorption."
+       "heading": "Cytoplasm",
+       "description": "A gel-like, semi-fluid substance that fills the space between the cell membrane and the nucleus, containing all the organelles and structures necessary for the cell's function"
      }
   ]
 }
