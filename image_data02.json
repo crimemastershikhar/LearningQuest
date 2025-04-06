@@ -1,0 +1,21 @@
+{
+  "image_url": "https://drive.google.com/uc?export=download&id=1IKicdWGQazU8prSo-oMAgWWVxBneWGqE",
+  "strings": [
+     {
+       "heading": "Ovary",
+       "description": "The enlarged basal portion of the pistil that contains the ovulesand, after fertilization, develops into a fruit enclosing seeds"
+     },
+     {
+       "heading": "Style",
+       "description": "A long, slender stalk-like structure within a flower that connects the stigma to the ovary"
+     },
+     {
+       "heading": "Stigma",
+       "description": "The receptive surface at the tip of the pistil where pollen lands and germinates, initiating the fertilization process. "
+     },
+     {
+       "heading": "Pistil",
+       "description": "The female reproductive part of a flower, typically located in the center"
+     }
+  ]
+}

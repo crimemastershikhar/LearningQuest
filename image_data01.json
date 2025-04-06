@@ -1,0 +1,21 @@
+{
+  "image_url": "https://drive.google.com/uc?export=download&id=1V4sgkLcJm0u_7tAdJ1lANuUQc_EHXuMk",
+  "strings": [
+     {
+       "heading": "Forebrain",
+       "description": "Responsible for voluntary actions, thinking, and processing"
+     },
+     {
+       "heading": "Midbrain",
+       "description": "The central part of the brainstem, acting as a vital connection between the forebrain and hindbrain, and playing a crucial role in motor control, vision, and hearing"
+     },
+     {
+       "heading": "Pons",
+       "description": "Responsible for relaying signals between the cerebellum, spinal cord, and other brain regions"
+     },
+     {
+       "heading": "Medulla oblongata",
+       "description": "The lowest part of the brainstem, connecting the brain to the spinal cord and controlling vital functions like breathing"
+     }
+  ]
+}

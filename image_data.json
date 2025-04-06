@@ -1,21 +1,21 @@
 {
-  "image_url": "https://drive.google.com/uc?export=download&id=1eGWLgDFNz-Z8WYZSldR3JWKNRH01kUOx",
+  "image_url": "https://drive.google.com/uc?export=download&id=19gmzEDuemEiGWk7cTtCPANfPt3v5Iqg8",
   "strings": [
      {
-       "heading": "Cricket Bat",
-       "description": "Made of English Willow, used in professional cricket."
+       "heading": "Brachiocephalic artery",
+       "description": "A major blood vessel that branches off the aortic arch and supplies blood to the right side of the head, neck, and upper limb"
      },
      {
-       "heading": "Weight",
-       "description": "1.2kg (ideal for aggressive batting)."
+       "heading": "Left common careoid artery",
+       "description": "A major blood vessel that originates directly from the aortic arch, supplying blood to the head and neck, and it does not directly connect to the heart itself"
      },
      {
-       "heading": "Brand",
-       "description": "MRF (used by legendary players like Sachin Tendulkar)."
+       "heading": "Left subclavian artery",
+       "description": "Responsible for supplies blood to the left upper body, including the head, neck, and arm"
      },
      {
-       "heading": "Grip",
-       "description": "Rubber grip for better control and shock absorption."
+       "heading": "Aorta",
+       "description": "The largest artery in your body, originating from the left ventricle of the heart, and is responsible for carrying oxygen-rich blood to the rest of the body"
      }
   ]
 }

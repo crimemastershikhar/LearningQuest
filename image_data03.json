@@ -1,0 +1,21 @@
+{
+  "image_url": "https://drive.google.com/uc?export=download&id=1l2pmiHk1z4R6WbbikCVhdZhzVhR4-rsV",
+  "strings": [
+     {
+       "heading": "Granules",
+       "description": "They are nanoscale fluid compartments containing newly synthesized RNA, RNA processing proteins, and mitoribosome assembly"
+     },
+     {
+       "heading": "Ribosome",
+       "description": "It is responsible for synthesizing proteins encoded by the mitochondrial DNA"
+     },
+     {
+       "heading": "Cristae",
+       "description": "They are folds in the inner membrane of mitochondria that increase the surface area for chemical reactions"
+     },
+     {
+       "heading": "Intermembrane space",
+       "description": "small, aqueous compartment located between the outer and inner mitochondrial membranes"
+     }
+  ]
+}
